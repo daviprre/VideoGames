@@ -1,0 +1,527 @@
+/* 150485
+
+590995
+
+c62a88
+
+03c4a1
+ */
+
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ body{
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+.container-main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    height: 80vh;
+    background-image: linear-gradient(to bottom, #c62a88, #b61c8b, #a50f8d, #920590, #7c0392, #710493, #660694, #590995, #590995, #590995, #590995, #590995);
+    transform-origin: top left;
+    transform: skewY(-8deg);
+    padding: 0 5% 0 5%;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+    transform-origin: top left;
+    transform: skewY(8deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .header-logo{
+    width: auto;
+    height: 100%;
+    padding-top: 3%;
+    
+}
+
+header .header-nav{
+    width: auto;
+    padding-top: 3%;
+}
+
+header .header-nav ol{
+    display: flex;
+    list-style: none;
+}
+
+header .header-nav ol li a{
+    color: white;
+    margin: 25px;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header .header-nav ol li a:hover{
+    text-decoration: underline;
+}
+
+
+header .header-car{
+    border: 1px solid white;
+    height: 40px;
+    width: 100px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin-top: 3%;
+    
+
+}
+
+header .header-car:hover{
+    background-color: rgb(255, 255, 255, 0.5);
+
+
+}
+
+header .header-car-img{
+    height: 30px;
+    width: auto;
+}
+
+
+main{
+    width: 100%;
+    height: 85%;
+    transform-origin: top left;
+    transform: skewY(8deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+main .main-title{    
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+main .main-title h1{
+    margin-top: 15%;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+main .main-title p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    width: 50%;
+}
+
+main .main-games{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main .main-games img{
+    margin-bottom: 24px;
+    border-bottom-right-radius: 200px;
+
+}
+
+main .main-other-games{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 120px;
+}
+
+main .main-other-games .other-fotnite{
+    height: auto;
+    width: 80px;
+    align-self: center;
+    padding-right: 10px;
+}
+
+main .main-other-games .other-two{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+        
+}
+
+main .main-other-games .other-two img{
+    width: auto;
+    height: 100%;   
+            
+}
+
+main .main-other-games .other-two .other-right{
+    height: 55px;
+    border-radius: 50%;
+    margin-left: -80px;
+            
+}
+
+main .main-other-games .other-call{
+    height: auto;
+    width: 60px;
+    align-self: center;
+}
+
+
+.firstpro-container{
+    padding: 0 5% 0 5%;
+    height: 70vh;
+}
+.first-products{
+    height: inherit;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.first-products .card{
+    height: 90%;
+    width: 20%;
+}
+
+.first-products .card1{
+    border: 1px solid rgb(3, 196, 161);
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 0;
+    background-color: rgb(3, 196, 161, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+
+
+}
+
+.first-products .card1:hover{
+    background-color: rgb(3, 196, 161, 0.5);
+
+}
+
+.first-products .card2{
+    border: 1px solid rgb(198, 42, 136);
+    border-radius: 10px;
+    align-self: flex-start;
+    margin-top: -3%;
+    background-color: rgb(198, 42, 136, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.first-products .card2:hover{
+    background-color: rgb(198, 42, 136, 0.5);
+
+}
+
+.first-products .card3{
+    border: 1px solid rgb(21, 4, 133);
+    border-radius: 10px;
+    align-self: flex-start;
+    margin-top: -7%;
+    background-color: rgb(21, 4, 133, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.first-products .card3:hover{
+    background-color: rgb(21, 4, 133, 0.5);
+
+}
+.first-products .card3 img{
+    margin-bottom: 12px;
+
+}
+
+.about-container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: -7%;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50vh;
+    transform-origin: top right;
+    transform: skewY(-8deg);
+    padding: 0 5% 0 5%;
+    background-image: linear-gradient(to left bottom, #150485, #003ea7, #0062b5, #0082b6, #00a0b4, #00adb4, #00b9ad, #03c4a1, #03c4a1, #03c4a1, #03c4a1, #03c4a1);
+}
+
+.about{
+    margin-top: -80px;
+    width: 40%;
+    height: 100%;
+    transform-origin: top left;
+    transform: skewY(8deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about img{
+    margin-bottom: 2%;
+}
+
+.about h2{
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.about p{
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.products-store{
+    width: 100%;
+    height: 90vh;
+    margin-top: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.products-store .products-search-container{
+    margin-bottom: 3%;
+    margin-top: 1%;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.products-store .products-search-container .products-search{
+    border:1px solid rgb(21, 4, 133, 0.3);
+    height: 70%;
+    width: 70%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.products-store .products-search-container .products-search .Browser-text{
+    height: 100%;
+    width: 95%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    border-style: none;
+    outline: none;
+    justify-self: flex-end;
+
+}
+
+.products-store .products-search-container .products-search .Browser-image{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-position: center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 40px;
+    margin: 0;
+    align-self: center;
+    justify-self: start;
+    border-radius: 80%;
+}
+
+.products-store .products-search-container .search-button{
+    border:1px solid rgb(21, 4, 133, 0.1);
+    border-radius: 5px;
+    background-color: rgb(21, 4, 133, 0.7);
+    height: 70%;
+    width: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin-left: -7%;
+    letter-spacing: 0.5px;
+
+}
+
+.products-store .products-search-container .search-button:hover{
+    background-color: rgb(21, 4, 133, 0.3);
+
+
+}
+
+
+.products-store .products-cards{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.products-store .products-cards article{
+    border: 2px solid transparent;
+    width: 14%;
+    margin: 0 2% 0 2%;
+    border-radius: 5%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.products-store .products-cards article img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.products-store .products-cards article h3{
+    width: 100%;
+    height: 15%;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(21, 4, 133, 0.7); 
+    padding-top: 4px;
+}
+
+
+.products-store .products-cards article p{
+    width: 100%;
+    height: 15%;
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom:2px solid rgb(21, 4, 133, 0.5);
+    vertical-align: middle;
+    padding-top: 4px;
+    color: rgba(0,0,0,0.6);
+    font-weight: bold;
+}
+
+
+.products-store .products-cards article:hover{
+    box-shadow: 0 0 0.5em  rgb(89 9 149 / 1);
+    background-color: rgb(89 9 149 / 20%);
+    
+}
+
+footer{
+    height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #150485, #150485, #150485, #150485, #150485, #1e0486, #260488, #2c0489, #39058c, #44068f, #4f0792, #590995);
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .foot-container{
+    width: 80%;
+    display: flex;
+}
+
+footer .foot-container .foot-logo{
+    width: 50%;
+    padding-top: 10px;
+}
+
+footer .foot-container .foot-logo .foot-social img{
+    margin: 2%;
+    
+}
+
+footer .foot-container .foot-us{
+    width: 25%;
+    padding-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer .foot-container .foot-us h3{
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 10px;
+
+}
+
+footer .foot-container .foot-us h4{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+footer .foot-container .foot-page{
+    width: 25%;
+    padding-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+}
+
+footer .foot-container .foot-page h3{
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: 5px;
+
+}
+
+footer .foot-container .foot-page h4{
+    font-size: 15px;
+    font-weight: 100;
+
+}
