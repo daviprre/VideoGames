@@ -1,0 +1,91 @@
+/* Tablet: 600x960 */
+/* Celular: 393x788 */
+@media screen and (max-width: 600px){
+    body{
+        border: 1px solid red;
+        
+    }
+
+    .container-main{
+        
+        width: 100%;
+        padding: 0;
+        height: 40vh;
+
+    }
+
+    header{
+        box-sizing: border-box;
+        padding-left: 25px;
+        padding-right: 25px;
+        height: 20%;
+    }
+
+    header .header-nav{
+        display: none;
+    }
+
+    header .header-car{
+        display: none;
+    }
+
+    header .header-menuhamburger{
+        display: flex;
+        height: 80%;
+        width: 10%;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255, 0.2);
+    }
+
+    header .header-menuhamburger .header-hamburger{
+        height: 70%;
+        width: auto;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    main .main-games{
+        
+        height: 100%;
+        margin: 0;
+    }
+
+    main .main-title{
+        box-sizing: border-box;
+
+    }
+
+    main .main-title h1{
+        font-size: 40px;
+    }
+
+    main .main-title p{
+        width: 100%;
+        font-size: 23px;
+        
+    }
+
+    main .main-other-games{
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+
+
+    main .main-other-games .other-two{
+        justify-content: space-between;
+    }
+
+    .firstpro-container{
+        height: 40vh;
+    }
+}
+
+
+
