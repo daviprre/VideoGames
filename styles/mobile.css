@@ -84,7 +84,7 @@
     }
 
     .firstpro-container{
-        height: 40vh;
+        height: 60vh;
         justify-content: space-between;
         padding: 0 0 10px 0;
         
@@ -92,14 +92,38 @@
 
     .first-products .card1{
         width: 30%;
+        height: 70%;
+        margin-top: 0%;
+        align-self: center;
     }
 
     .first-products .card2{
         width: 30%;
+        height: 70%;
+        margin-top: -20%;
+        align-self: center;
     }
 
     .first-products .card3{
         width: 30%;
+        height: 70%;
+        margin-top: -40%;
+        align-self: center;
+    }
+
+    .about{
+        margin-top: -80px;
+        width: 100%;
+    }
+
+    .about h2{
+        font-size: 50px;
+        
+    }
+
+    .about p{
+        font-size: 28px;
+        
     }
 }
 
