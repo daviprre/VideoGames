@@ -30,6 +30,7 @@
     }
 
     header .header-menuhamburger{
+        border: 1px solid white;
         display: flex;
         height: 80%;
         width: 10%;
@@ -84,6 +85,21 @@
 
     .firstpro-container{
         height: 40vh;
+        justify-content: space-between;
+        padding: 0 0 10px 0;
+        
+    }
+
+    .first-products .card1{
+        width: 30%;
+    }
+
+    .first-products .card2{
+        width: 30%;
+    }
+
+    .first-products .card3{
+        width: 30%;
     }
 }
 
