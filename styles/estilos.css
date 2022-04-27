@@ -459,7 +459,7 @@ main .main-other-games .other-call{
 }
 
 footer{
-    height: 20vh;
+    height: 23vh;
     width: 100%;
     background-image: linear-gradient(to right, #150485, #150485, #150485, #150485, #150485, #1e0486, #260488, #2c0489, #39058c, #44068f, #4f0792, #590995);
     margin-top: 70px;
@@ -470,6 +470,8 @@ footer{
 footer .foot-container{
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 footer .foot-container .foot-logo{
@@ -525,4 +527,17 @@ footer .foot-container .foot-page h4{
     font-size: 15px;
     font-weight: 100;
 
+}
+
+footer .foot-container .foot-name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer .foot-container .foot-name h3{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
 }
