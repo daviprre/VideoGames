@@ -246,13 +246,13 @@
     }
 
     footer .foot-container .foot-name h3{
-        font-size: 20px;
+        font-size: 15px;
     }
 
 
 }
 
-@media screen and (max-width: 393px){
+@media screen and (max-width: 400px){
     .container-main{
         height: 60vh;
     }
